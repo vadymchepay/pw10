@@ -56,7 +56,6 @@
     .header-content {
         width: 100%;
         min-height: 567px;
-        padding-top: 50px;
         background-image: url(../../img/header_bg.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -88,11 +87,13 @@
             content: '';
         }
     }
-    
     .header-content-left {
         width: 100%;
+        padding-top: 50px;
+        padding-bottom: 95px;
         .partners {
             display: flex;
+            padding-bottom: 60px;
             .tnl {
                 width: 70px;
                 height: 70px;
@@ -113,6 +114,57 @@
                     height: auto;
                 }
             }
+            .cru {
+                width: 119px;
+                height: 70px;
+                padding: 12px 0;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .content-left-descr {
+            .main-heading {
+                color: #2b2a3f;
+                font-size: 32px;
+                font-weight: 400;
+                margin-bottom: 18px;
+            }
+            .descr-text {
+                max-width: 455px;
+                color: #52516f;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 39px;
+                margin-bottom: 48px;
+            }
+            .descr-raiting {
+                .raiting-text {
+                    color: #52516f;
+                    font-size: 29px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .raiting-stars {
+                    img {
+                        width: 38px;
+                        height: auto;
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .header-content-right {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .room-img {
+            width: 100%;
+            transform: translateX(-70px);
+            
         }
     }
 }
