@@ -443,55 +443,167 @@ footer {
       width: 100%;
       transform: translateX(-70px); }
 
-.new-features {
+.features {
   width: 100%;
   background-color: #ececec;
-  padding-top: 150px; }
-  .new-features .features-heading-cover {
+  padding-top: 150px;
+  padding-bottom: 185px; }
+  .features .features-heading-cover {
     display: flex;
     justify-content: center;
     margin-bottom: 115px; }
-    .new-features .features-heading-cover .features-heading-inner .heading-question {
+    .features .features-heading-cover .features-heading-inner .heading-question {
       color: #52516f;
       font-size: 20px;
       font-weight: 400;
       margin-bottom: 7px; }
-    .new-features .features-heading-cover .features-heading-inner .heading-answer {
+    .features .features-heading-cover .features-heading-inner .heading-answer {
       color: #52516f;
       font-size: 72px;
       font-weight: 900; }
-  .new-features .new-features .features-subheading-cover {
+  .features .new-features .features-subheading-cover {
     display: flex;
     justify-content: center;
     margin-bottom: 100px; }
-    .new-features .new-features .features-subheading-cover .features-subheading {
+    .features .new-features .features-subheading-cover .features-subheading {
       color: #52516f;
       font-size: 20px;
       font-weight: 400;
       margin-bottom: 6px; }
-      .new-features .new-features .features-subheading-cover .features-subheading::after {
+      .features .new-features .features-subheading-cover .features-subheading::after {
         content: '';
         display: block;
         width: 374px;
         height: 2px;
         background-color: #d594c1;
         margin: 0 auto; }
-  .new-features .new-features .features-content-left {
+  .features .new-features .features-content-left {
     width: 100%;
     display: flex;
     justify-content: center; }
-    .new-features .new-features .features-content-left .features-content-img {
+    .features .new-features .features-content-left .features-content-img {
       width: 283px;
       height: 474px; }
-      .new-features .new-features .features-content-left .features-content-img img {
+      .features .new-features .features-content-left .features-content-img img {
         width: 100%;
         height: auto; }
-  .new-features .new-features .features-content-right {
+  .features .new-features .features-content-right {
     width: 100%; }
-    .new-features .new-features .features-content-right .features-list {
-      width: 100%;
+    .features .new-features .features-content-right .features-list {
+      max-width: 686px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between; }
-      .new-features .new-features .features-content-right .features-list .feature-item {
-        max-width: 307px; }
+      justify-content: space-around; }
+      .features .new-features .features-content-right .features-list .feature-item {
+        max-width: 307px;
+        padding-top: 69px; }
+        .features .new-features .features-content-right .features-list .feature-item .feature-item-heading {
+          color: #33324d;
+          font-size: 23px;
+          font-weight: 400;
+          margin-bottom: 26px; }
+        .features .new-features .features-content-right .features-list .feature-item .feature-item-text {
+          color: #52516f;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 28px; }
+
+.contacts {
+  width: 100%;
+  padding-top: 148px;
+  padding-bottom: 134px; }
+  .contacts .contacts-tab {
+    width: 100%;
+    background-color: #ececec;
+    padding: 81px 0; }
+    .contacts .contacts-tab .contact-form {
+      margin-left: 111px; }
+      .contacts .contacts-tab .contact-form .form-heading {
+        margin-top: 14px;
+        margin-bottom: 6px;
+        color: #2b2a3f;
+        font-size: 32px;
+        font-weight: 400; }
+      .contacts .contacts-tab .contact-form .form-sub-heading {
+        color: #a6598d;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 28px; }
+      .contacts .contacts-tab .contact-form .form-input {
+        display: block;
+        box-sizing: border-box;
+        width: 333px;
+        min-width: 280px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+        border: 1px solid rgba(208, 208, 208, 0.5);
+        background-color: #e3e3e3;
+        color: #787e8c;
+        font-size: 15px;
+        font-weight: 400; }
+      .contacts .contacts-tab .contact-form .text-input {
+        height: 158px; }
+      .contacts .contacts-tab .contact-form .submit-btn {
+        border-radius: 4px;
+        background-color: #40c6ed;
+        padding: 20px 40px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400; }
+  .contacts .contacts-img {
+    position: relative; }
+    .contacts .contacts-img img {
+      display: block;
+      position: absolute;
+      top: -175px; }
+
+.footer {
+  width: 100%;
+  background-color: #2b2a3f;
+  padding-top: 74px;
+  padding-bottom: 100px; }
+  .footer .footer-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px; }
+    .footer .footer-heading .logo {
+      width: 164px;
+      height: 46px;
+      margin-right: 40px; }
+      .footer .footer-heading .logo img {
+        width: 100%;
+        height: 100%; }
+    .footer .footer-heading .descr-raiting .raiting-text {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    .footer .footer-heading .descr-raiting .raiting-stars img {
+      width: 38px;
+      height: auto;
+      margin-right: 4px; }
+  .footer .footer-content-left {
+    padding-left: 17px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400; }
+    .footer .footer-content-left p {
+      margin-bottom: 30px; }
+  .footer .footer-content-right {
+    padding-right: 60px; }
+    .footer .footer-content-right .get-in-touch {
+      color: #8483a4;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 30px; }
+    .footer .footer-content-right .shedule {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 30px; }
+    .footer .footer-content-right .phone {
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: 400; }
